@@ -30,6 +30,7 @@ public class MavenDemo {
 	  public void loginwithvalidds() 
 	  {
 		  System.out.println("Testing dsd github....");
+		 System.out.println("From github to eclipse....");
 		  String act_title1=driver.getTitle();
 		  String exp_title1="Welcome: Mercury Tours";
 		  Assert.assertEquals(act_title1, exp_title1);
