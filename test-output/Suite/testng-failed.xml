@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1">
+    <classes>
+      <class name="com.model.MavenDemoWithTestNg.MavenDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.model.MavenDemoWithTestNg.MavenDemo">
+        <methods>
+          <include name="getAllCookies"/>
+          <include name="CaptureScreenShot"/>
+          <include name="loginwithvalidds"/>
+          <include name="loginwithinvalidds"/>
+          <include name="openbrowser"/>
+          <include name="verifySignonpage"/>
+          <include name="maximizeBrowser"/>
+          <include name="enterApplicationUrl"/>
+        </methods>
+      </class> <!-- com.model.MavenDemoWithTestNg.MavenDemo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58180" started-at="2019-05-02T11:15:32Z" finished-at="2019-05-02T11:16:30Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="58180" started-at="2019-05-02T11:15:32Z" finished-at="2019-05-02T11:16:30Z">
+      <class name="com.model.MavenDemoWithTestNg.MavenDemo">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="openbrowser" is-config="true" duration-ms="16179" started-at="2019-05-02T11:15:16Z" finished-at="2019-05-02T11:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="enterApplicationUrl()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="enterApplicationUrl" is-config="true" duration-ms="2755" started-at="2019-05-02T11:15:32Z" finished-at="2019-05-02T11:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationUrl -->
+        <test-method status="PASS" signature="maximizeBrowser()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="maximizeBrowser" is-config="true" duration-ms="1338" started-at="2019-05-02T11:15:35Z" finished-at="2019-05-02T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="getAllCookies" is-config="true" duration-ms="137" started-at="2019-05-02T11:15:36Z" finished-at="2019-05-02T11:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithvalidds()[pri:1, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="loginwithvalidds" duration-ms="48283" started-at="2019-05-02T11:15:36Z" finished-at="2019-05-02T11:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds -->
+        <test-method status="PASS" signature="CaptureScreenShot()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="CaptureScreenShot" is-config="true" duration-ms="963" started-at="2019-05-02T11:16:25Z" finished-at="2019-05-02T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenShot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="getAllCookies" is-config="true" duration-ms="20" started-at="2019-05-02T11:16:26Z" finished-at="2019-05-02T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="verifySignonpage()[pri:2, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="verifySignonpage" duration-ms="20" started-at="2019-05-02T11:16:26Z" finished-at="2019-05-02T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignonpage -->
+        <test-method status="PASS" signature="CaptureScreenShot()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="CaptureScreenShot" is-config="true" duration-ms="600" started-at="2019-05-02T11:16:26Z" finished-at="2019-05-02T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenShot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="getAllCookies" is-config="true" duration-ms="54" started-at="2019-05-02T11:16:26Z" finished-at="2019-05-02T11:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithinvalidds()[pri:3, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="loginwithinvalidds" duration-ms="2791" started-at="2019-05-02T11:16:26Z" finished-at="2019-05-02T11:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidds -->
+        <test-method status="PASS" signature="CaptureScreenShot()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="CaptureScreenShot" is-config="true" duration-ms="672" started-at="2019-05-02T11:16:29Z" finished-at="2019-05-02T11:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenShot -->
+        <test-method status="PASS" signature="deletAllcookies()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="deletAllcookies" is-config="true" duration-ms="302" started-at="2019-05-02T11:16:30Z" finished-at="2019-05-02T11:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletAllcookies -->
+        <test-method status="PASS" signature="dbconncetion()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="dbconncetion" is-config="true" duration-ms="0" started-at="2019-05-02T11:16:30Z" finished-at="2019-05-02T11:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconncetion -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.model.MavenDemoWithTestNg.MavenDemo@6bdf28bb]" name="closeBrowser" is-config="true" duration-ms="532" started-at="2019-05-02T11:16:31Z" finished-at="2019-05-02T11:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.model.MavenDemoWithTestNg.MavenDemo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
